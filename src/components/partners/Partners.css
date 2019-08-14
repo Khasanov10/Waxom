@@ -1,0 +1,12 @@
+#partners {
+    background: url(../../img/partners.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    padding: 90px 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.partners-item img {
+    width: 70%;
+}

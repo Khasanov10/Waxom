@@ -1,0 +1,78 @@
+.aws-sld__content {
+	height: unset !important;
+}
+
+.aws-sld__bullets {
+	z-index: 2 !important;
+	bottom: 110px !important;
+}
+
+.carousel-caption {
+	bottom: 17%;
+}
+
+.carousel-caption h3 {
+	font-family: "Raleway";
+	font-weight: 500;
+	font-size: 36px;
+}
+
+.carousel-caption h1 {
+	font-family: "Raleway";
+	font-weight: 800;
+	font-size: 52px;
+}
+
+.carousel-caption p {
+	font-family: "Montserrat";
+	font-weight: 300;
+}
+
+.carousel-arrows img {
+	width: 25px;
+}
+
+.aws-sld__bullets button {
+	width: 10px !important;
+	height: 10px !important;
+	border-radius: 50% !important;
+	margin-right: 5px !important;
+	margin-left: 5px !important;
+	border: 3px solid transparent !important;
+}
+
+.aws-sld__bullets button .active {
+	border: 3px solid #c2b2a0 !important;
+	background: transparent !important;
+}
+
+.carousel-caption .btn {
+	padding: 12px 32px;
+	margin-top: 40px;
+	color: #fff;
+	background: #998675;
+	text-transform: uppercase;
+	font-family: "Raleway";
+	font-weight: 500;
+	border-bottom: 4px solid #736357;
+}
+
+@media screen and (min-width: 1500px) {
+	.carousel-caption {
+		bottom: 26%;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.carousel-caption {
+		bottom: 12%;
+	}
+
+	.carousel-caption h3 {
+		font-size: 32px;
+	}
+
+	.carousel-caption h1 {
+		font-size: 48px;
+	}
+}

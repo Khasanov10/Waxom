@@ -1,0 +1,89 @@
+#about {
+    background: #fbfaf8;
+    padding-top: 70px;
+}
+
+.about-item h2,
+.about-item p {
+    text-align: center;
+}
+
+.about-item h2 {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 30px;
+    color: #555;
+}
+
+.about-item p {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    color: #8c8c8c;
+}
+
+.about-item img {
+    width: 100%
+}
+
+.wordpress {
+    padding: 30px;
+    background: linear-gradient(to right, #211b19, #4e3427);
+}
+
+.wordpress-text {
+    padding-left: 50px;
+}
+
+.wordpress-text h2 {
+    font-family: 'Raleway';
+    font-weight: normal;
+    font-size: 28px;
+    text-transform: capitalize;
+    text-align: left;
+    color: #fff;
+}
+
+.wordpress-text p {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 18px;
+    text-align: left;
+    color: #615855;
+    margin-bottom: 0;
+}
+
+.wordpress-link {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+.wordpress-link a {
+    padding: 12px 32px;
+    color: #fff;
+    background: #998675;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 14px;
+    border-bottom: 4px solid #736357;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 992px) {
+    .wordpress-text {
+        padding-left: 15px;
+    }
+
+    .wordpress-link {
+        margin-top: 30px;
+        justify-content: flex-start;
+    }
+
+}

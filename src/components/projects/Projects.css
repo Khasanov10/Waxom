@@ -1,0 +1,203 @@
+#projects {
+	padding: 70px 0;
+}
+
+#projects h2 {
+	text-align: center;
+	font-family: "Raleway";
+	font-weight: 500;
+	font-size: 30px;
+	color: #555;
+}
+
+.projects-text p {
+	text-align: center;
+	font-family: "Montserrat";
+	font-weight: 300;
+	font-size: 16px;
+	color: #8c8c8c;
+	margin-bottom: 50px;
+}
+
+.projects-item {
+	margin-bottom: 30px;
+	transition: 0.3s ease;
+}
+
+.projects-item:hover .projects-item-bottom {
+	background: #362f2d;
+	transition: 0.3s ease;
+}
+
+.projects-item:hover .projects-item-bottom h3 {
+	color: #fff;
+	transition: 0.3s ease;
+}
+
+.projects-item:hover .projects-item-bottom p {
+	color: #c7b299;
+	transition: 0.3s ease;
+}
+
+.projects-item img {
+	width: 100%;
+	transition: 0.3s ease;
+}
+
+.projects-item-top {
+	position: relative;
+}
+
+.projects-item:hover .projects-item-top::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.6);
+	width: 100%;
+	height: 100%;
+	transition: 0.3s ease;
+	z-index: 10;
+}
+
+.projects-item-icons {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+	z-index: 15;
+	justify-content: center;
+	align-items: center;
+}
+
+.projects-item:hover .projects-item-icons {
+	display: flex;
+}
+
+.projects-icon {
+	margin: 0 8px;
+}
+
+.icon-link {
+	background: url(../../img/icons/icon-link.svg);
+	background-repeat: no-repeat;
+	display: block;
+	width: 25px;
+	height: 26px;
+}
+
+.icon-link:hover {
+	background: url(../../img/icons/icon-link-hovered.svg);
+	background-repeat: no-repeat;
+	display: block;
+}
+
+.icon-search {
+	background: url(../../img/icons/icon-search.svg);
+	background-repeat: no-repeat;
+	display: block;
+	width: 25px;
+	height: 26px;
+}
+
+.icon-search:hover {
+	background: url(../../img/icons/icon-search-hovered.svg);
+	background-repeat: no-repeat;
+	display: block;
+}
+
+.projects-item-bottom {
+	background: #fbfaf8;
+	padding: 20px;
+	transition: 0.3s ease;
+}
+
+.projects-item-bottom h3 {
+	font-size: 18px;
+	font-family: "Raleway";
+	font-weight: 400;
+	color: #c7b299;
+	transition: 0.3s ease;
+}
+
+.projects-item-bottom p {
+	font-size: 14px;
+	text-align: left;
+	color: #8c8c8c;
+	transition: 0.3s ease;
+}
+
+.project-triangle {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 15px 10px 15px;
+	border-color: transparent transparent #ffffff transparent;
+	position: absolute;
+	bottom: 105px;
+	left: 30px;
+	transition: 0.3s ease;
+}
+
+.projects-item:hover .project-triangle {
+	border-color: transparent transparent #362f2d transparent;
+	z-index: 99;
+	transition: 0.3s ease;
+}
+
+.tabs .row {
+	margin-top: 30px;
+}
+
+.tabs .tab {
+	border-radius: 4px;
+	background: transparent;
+	text-transform: capitalize;
+	color: #8c8c8c;
+	font-family: "Montserrat";
+	font-weight: 400;
+	font-size: 14px;
+	border: 1px solid #c1c1c1;
+	margin: 0 12px;
+	padding: 6px 27px;
+	transition: 0.3s ease;
+	cursor: pointer;
+}
+
+.tabs .tab:nth-child(1) {
+	margin-left: 140px;
+}
+
+.tabs .tab:hover {
+	color: #fff;
+	background: #998675;
+	transition: 0.3s ease;
+	border-color: transparent;
+}
+
+.tabs .active {
+	background: #c7b299;
+}
+
+.tabs button:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.projects-more {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.load-more {
+	padding: 12px 32px;
+	color: #fff;
+	background: #998675;
+	text-transform: uppercase;
+	font-family: "Raleway";
+	font-weight: 500;
+	font-size: 14px;
+	border-bottom: 4px solid #736357;
+}

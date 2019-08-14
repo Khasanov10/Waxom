@@ -1,0 +1,109 @@
+#services {
+	margin-top: -70px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.services-item {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 40px;
+}
+
+.services-item h3 {
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 22px;
+	color: #555555;
+	text-transform: capitalize;
+}
+
+.services-item:hover h3 {
+	color: #c7b299;
+}
+
+.services-item p {
+	text-align: center;
+	color: #8c8c8c;
+	font-family: Montserrat;
+	font-weight: 300;
+	margin-bottom: 30px;
+	padding: 0 30px;
+}
+
+.services-item .stick {
+	height: 3px;
+	width: 70px;
+	background: #f1eee9;
+	display: block;
+	transition: 0.3s ease;
+}
+
+.services-item:hover .stick {
+	transition: 0.3s ease;
+	background: #c7b299;
+}
+
+.icon {
+	margin-bottom: 20px;
+	transition: 0.3s ease;
+	width: 44px;
+	height: 40px;
+	display: inline-block;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.icon-pencil {
+	transition: 0.3s ease;
+	background-image: url(../../img/icons/icon-pencil.svg);
+}
+
+.services-item:hover .icon-pencil {
+	transition: 0.3s ease;
+	background-image: url(../../img/icons/icon-pencil-hovered.svg);
+}
+
+.icon-layers {
+	transition: 0.3s ease;
+	background-image: url(../../img/icons/icon-development.svg);
+}
+
+.services-item:hover .icon-layers {
+	transition: 0.3s ease;
+	background-image: url(../../img/icons/icon-development-hovered.svg);
+}
+
+.icon-cog {
+	transition: 0.3s ease;
+	background-image: url(../../img/icons/icon-customization.svg);
+}
+
+.services-item:hover .icon-cog {
+	transition: 0.3s ease;
+	background-image: url(../../img/icons/icon-customization-hovered.svg);
+}
+
+.icon-folder {
+	transition: 0.3s ease;
+	background-image: url(../../img/icons/icon-marketing.svg);
+}
+
+.services-item:hover .icon-folder {
+	transition: 0.3s ease;
+	background-image: url(../../img/icons/icon-marketing-hovered.svg);
+}
+
+@media screen and (min-width: 1366px) {
+	.services-item p {
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.services-item p {
+		padding: 0;
+	}
+}
